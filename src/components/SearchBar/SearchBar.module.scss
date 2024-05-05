@@ -1,0 +1,42 @@
+@import '../../assets/css/constants.scss';
+
+.container {
+    background-color: $primary-light-color;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding:  1rem ;
+    width: inherit;
+    
+
+    .icon {
+    background-color: inherit;
+    color: $text-dark-color;
+
+    cursor: pointer;
+
+    border: none;
+    svg {
+        font-size: 1.5rem;
+    }
+}
+
+.input {
+    flex: 1;
+    border: none;
+    background-color: inherit;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+}
+
+
+.border {
+    border: 2px solid $accent-color;
+}
+
+
+

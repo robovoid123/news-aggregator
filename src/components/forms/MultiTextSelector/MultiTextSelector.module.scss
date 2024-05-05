@@ -1,0 +1,37 @@
+@import '../../../assets/css/constants.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+} 
+
+.itemList {
+    display: flex;
+    flex-flow: wrap;
+    gap: .5rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+
+    background-color: white;
+    color: $text-dark-color;
+    padding: .5rem;
+    font-size: .9rem;
+
+    button {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+        background-color: inherit;
+        border: none;
+
+        svg {
+            font-size: 1rem;
+        }
+    }
+}

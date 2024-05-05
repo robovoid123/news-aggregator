@@ -1,0 +1,45 @@
+@import '../../../assets/css/constants.scss';
+
+.filterOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.sourceSelect, .categoriesSelect, .dateFilter {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .sourceList {
+        display: flex;
+        gap: 1.2rem;
+        font-size: 1.2rem;
+        flex-flow: wrap;
+
+        input {
+            cursor: pointer;
+        }
+    }
+}
+
+.dateFilters {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.dateFilter{
+    display: flex;
+
+    input {
+        width: fit-content;
+        height: fit-content;
+        padding: .75rem 1rem;
+        border: none;
+    }
+}

@@ -1,0 +1,65 @@
+@import '../../../assets/css/constants.scss';
+
+.container {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width:  40rem;
+    background-color: $accent-color;
+    color: $text-light-color;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.collapseButton {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    border: none;
+    background-color: $primary-light-color;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    svg {
+        font-size: 1.4rem;
+        color: $accent-color;
+    }
+}
+
+.filter {
+    margin-top: 2rem;
+    padding: 0 2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.sourceSelect, .categoriesSelect, .dateFilter {
+    display: flex;
+    flex-direction: column;
+
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .sourceList {
+        display: flex;
+        gap: 1rem;
+        font-size: 1.2rem;
+        flex-flow: wrap;
+
+        input {
+            cursor: pointer;
+        }
+    }
+}

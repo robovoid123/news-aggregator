@@ -1,0 +1,9 @@
+export declare const authors: string;
+export declare const body: string;
+export declare const container: string;
+export declare const footer: string;
+export declare const head: string;
+export declare const image: string;
+export declare const link: string;
+export declare const source: string;
+export declare const title: string;

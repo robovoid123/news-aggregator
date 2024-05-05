@@ -1,0 +1,9 @@
+@import '../../../assets/css/constants.scss';
+
+.container {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+
+    gap: .5rem;
+}
